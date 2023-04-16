@@ -1,4 +1,4 @@
-# \[Group name\]
+# \[Leif\]
 
 **Group members:**
 - Carl Wollebekk
