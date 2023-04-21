@@ -1,9 +1,9 @@
-# \[Group name\]
+# \[Leif\]
 
 **Group members:**
-- A
-- B
-- C
+- Carl Wollebekk
+- Carl Voetmann
+- Frederikke Solgaard
 
 This repository contains  
 1. Inaugural project. 
