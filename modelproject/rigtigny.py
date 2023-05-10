@@ -38,4 +38,4 @@ class Ramseymodelclass:
         ss_sol = optimize.root(Ramseymodelclass.ss_equations, x0, args=(par,), method='hybr')
         k_star, c_star, w_star, rk_star = ss_sol.x
         y_star = k_star**par.alpha
-        return k_star, c_star, w_star, rk_star, y_star, pi_star
+        return k_star, c_star, w_star, rk_star, y_star
