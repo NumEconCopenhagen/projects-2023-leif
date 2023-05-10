@@ -1,5 +1,14 @@
 from scipy import optimize
 
+u()
+
+
+
+
+
+
+
+
 def solve_ss(alpha, c):
     """ Example function. Solve for steady state k. 
 
