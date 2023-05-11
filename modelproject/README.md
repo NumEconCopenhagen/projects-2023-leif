@@ -1,6 +1,6 @@
 # Model analysis project
 
-Our project is titled **PROJECT TITLE** and is about EXPLAIN.
+Our project is titled **Ramsey Model** and is about what effects $\alpha$ and $\beta$ have on the long run steady state.
 
 The **results** of the project can be seen from running [modelprojectFIN.ipynb](modelproject.ipynb).
 
