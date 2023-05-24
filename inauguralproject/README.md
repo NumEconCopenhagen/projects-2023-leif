@@ -16,4 +16,4 @@ In the third exercise we do exactly the same as in exercise 2 but now in continu
 
 In the fourth exercise we run the regression with values from exercise 3 and afterwards minimize the squared differences of our regressors and the given values in the text. We minimize these to determine the alpha and sigma value that minimize the squared difference. Given our regression model the fit is not that good to the model in the paper. Like the paper we get a positive constant term and a negative slope but the values varies a lot. We are unsure of the economic interpretation as we havent been able to minimize the squared difference correct. 
 
-We have not yet to complete exercise 5.
+In the last exercise we include the variable kappa to account for the disutility men get from working at home. We then estimate the results from exercise 4 again but this time optimize over kappa and sigma instead of alpha and sigma. This new model fit the data somewhat compared to the paper related to in exercise 4. 
