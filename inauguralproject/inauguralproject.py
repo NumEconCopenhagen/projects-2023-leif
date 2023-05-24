@@ -223,9 +223,10 @@ class HouseholdSpecializationModelClass:
             
         x0 = [0.8, 0.3]
 
-        # Bounds
+        # We set the bounds
         bounds = ((0.1, 0.99), (0.05,0.99))
 
+        # We minimize the solution
         solution = optimize.minimize(target, x0, method="Nelder-Mead", bounds=bounds, tol=1e-9)
 
         par.alpha = solution.x[0]
