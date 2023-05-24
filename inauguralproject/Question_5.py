@@ -131,7 +131,7 @@ class HouseholdSpecializationModelClass:
         return opt  
 
     def solve_wF_vec(self):
-        """ solve model for vector of female wages """
+        # solve model for vector of female wages 
 
         par = self.par 
         opt = self.opt
@@ -177,16 +177,21 @@ class HouseholdSpecializationModelClass:
         return opt.beta0, opt.beta1
 
     def estimate(self, used_seed):
-        """ estimate kappa and sigma """
+        # estimate kappa and sigma
 
+        # We use a random seed
         np.random.seed(used_seed)
 
+        # We set the initial guess
         init_guess = [np.random.uniform(0.01, 1)]
         
+        # We set the bounds
         bounds = [(0.01, 100),(-10,10)]
 
+        # We optimize over the regression
         results = optimize.minimize(self.target, init_guess, method="Nelder-Mead", bounds=bounds)
 
+        # We save the results
         sigma_results = results.x[0]
         kappa_results = results.x[1]
 
