@@ -38,7 +38,19 @@ The **results** of the project can be seen from running [modelprojectFIN.ipynb](
 
 In our project we have set up 2 countries, and run the Ramseymodel on both of them. We assigned them  $\alpha$ and $\beta$ values, in order to test for the long-run steady state for different values. 
 
-**Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires no further packages.
-
 # 4. Exam project
+
+In our exam we answer the following questions:
+
+1. **Optimal taxation with governmentconsumption**
+2. **Labor adjustment costs**
+3. **Global optimizer with refined multi-start**
+
+The **results** of the project can be seen from running [Exam-2023-notebook.ipynb](Exam-2023-notebook.ipynb).
+
+
+
+
+
+
 
