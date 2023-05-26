@@ -42,9 +42,9 @@ In our project we have set up 2 countries, and run the Ramseymodel on both of th
 
 In our exam we answer the following questions:
 
-1: Optimal taxation with governmentconsumption
-2: Labor adjustment costs
-3: Global optimizer with refined multi-start
+1. **Optimal taxation with governmentconsumption**
+2. **Labor adjustment costs**
+3. **Global optimizer with refined multi-start**
 
 The **results** of the project can be seen from running [Exam-2023-notebook.ipynb](Exam-2023-notebook.ipynb).
 
